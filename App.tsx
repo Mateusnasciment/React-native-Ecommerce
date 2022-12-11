@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>e-commerce</Text>
+      <Text>React native</Text>
       <StatusBar style="auto" />
     </View>
   );
