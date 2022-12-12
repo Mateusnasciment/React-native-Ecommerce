@@ -1,12 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Dimensions, View, StatusBar as Bar } from 'react-native';
+import Background from './src/components/Background';
+import bgDetail from './img/detail.png';
+import Header from './src/components/Header';
+
+const { width, height } = Dimensions.get('window');
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>e-commerce</Text>
-      <Text>React native</Text>
       <StatusBar style="auto" />
+      <Background bgImage={bgDetail} />
+      <View style={styles.body}>
+        <Header />
+      </View>
     </View>
   );
 }
@@ -14,8 +21,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f6be4',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#242C3B',
+  },
+  body: {
+    marginTop: Bar.currentHeight,
   },
 });
