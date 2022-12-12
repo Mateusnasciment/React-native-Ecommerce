@@ -3,6 +3,7 @@ import { StyleSheet, Dimensions, View, StatusBar as Bar } from 'react-native';
 import Background from './src/components/Background';
 import bgDetail from './img/detail.png';
 import Header from './src/components/Header';
+import CardBanner from './src/components/CardBanner';
 
 const { width, height } = Dimensions.get('window');
 
@@ -13,6 +14,7 @@ export default function App() {
       <Background bgImage={bgDetail} />
       <View style={styles.body}>
         <Header />
+        <CardBanner />
       </View>
     </View>
   );
