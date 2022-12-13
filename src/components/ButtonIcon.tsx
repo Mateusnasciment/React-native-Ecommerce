@@ -29,7 +29,7 @@ export default function ButtonIcon(props: TProps) {
     colors = ['#353F54', '#222834'],
     width = 50,
     height = 50,
-    textColor = '#fff',
+    textColor = '#ccc',
     text,
     icon,
   } = props;
@@ -53,6 +53,8 @@ export default function ButtonIcon(props: TProps) {
     },
     text: {
       color: textColor,
+      fontSize: 18,
+      fontWeight: '700',
     },
   });
 

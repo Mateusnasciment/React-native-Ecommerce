@@ -5,7 +5,6 @@ export default function CardBanner() {
   return (
     <View
       style={{
-        paddingHorizontal: 20,
         height: 252,
       }}
     >
