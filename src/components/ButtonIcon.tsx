@@ -7,7 +7,7 @@ import helmet from '../assets/img/categories/helmet.png';
 import battery from '../assets/img/categories/battery.png';
 import all from '../assets/img/categories/All.png';
 
-const icons: = {
+export const icons = {
   road,
   mountain,
   helmet,
@@ -68,7 +68,7 @@ export default function ButtonIcon(props: TProps) {
             </Text>
           ) : (
             <Image
-              source={icons[all]}
+              source={icons.all}
               style={{ width: 27, height: 27, resizeMode: 'contain' }}
             />
           )}
