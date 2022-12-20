@@ -9,7 +9,7 @@ export default function CardBanner() {
       }}
     >
       <ImageBackground
-        source={require('../../img/slider.png')}
+        source={require('../assets/img/vectors/slider.png')}
         style={{ width: '100%', height: 250, opacity: 0.98 }}
         resizeMode="contain"
       >
@@ -21,7 +21,7 @@ export default function CardBanner() {
           }}
         >
           <Image
-            source={require('../../img/bike.png')}
+            source={require('../assets/img/products/bike.png')}
             style={{
               width: '100%',
               height: 160,
@@ -44,3 +44,6 @@ export default function CardBanner() {
 }
 
 const styles = StyleSheet.create({});
+
+
+

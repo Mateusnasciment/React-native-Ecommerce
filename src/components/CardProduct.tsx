@@ -7,7 +7,7 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
-import bgCard from '../../img/cardBigBgStroke.png';
+import bgCard from '../assets/img/vectors/cardBigBgStroke.png';
 
 export default function CardProduct() {
   return (
@@ -33,14 +33,14 @@ export default function CardProduct() {
           >
             <TouchableOpacity style={{ width: 30, alignItems: 'center' }}>
               <Image
-                source={require('../../img/icons/heart.png')}
+                source={require('../assets/img/icons/heart.png')}
                 style={{ resizeMode: 'contain' }}
               />
             </TouchableOpacity>
           </View>
           <View style={{ alignItems: 'center' }}>
             <Image
-              source={require('../../img/card/bike.png')}
+              source={require('../../src/assets/img/products/bike.png')}
               style={{ width: 150, height: 100, resizeMode: 'contain' }}
             />
           </View>
