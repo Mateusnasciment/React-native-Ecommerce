@@ -68,7 +68,7 @@ export default function ButtonIcon(props: TProps) {
             </Text>
           ) : (
             <Image
-              source={icons[icon]}
+              source={icons.all}
               style={{ width: 27, height: 27, resizeMode: 'contain' }}
             />
           )}
