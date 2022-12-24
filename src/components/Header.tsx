@@ -13,7 +13,7 @@ export default function Header({ title = 'Choose Your Bike' }: TProps) {
       <View>
         <TouchableOpacity activeOpacity={0.7}>
           <Image
-            source={require('../../img/icons/btn_search.png')}
+            source={require('../assets/img/icons/btn_search.png')}
             style={{ resizeMode: 'contain', width: 44, height: 44 }}
           />
         </TouchableOpacity>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import road from '../../img/categories/road.png';
-import mountain from '../../img/categories/mountain.png';
-import helmet from '../../img/categories/helmet.png';
-import battery from '../../img/categories/battery.png';
-import all from '../../img/categories/All.png';
+import road from '../assets/img/categories/road.png';
+import mountain from '../assets/img/categories/mountain.png';
+import helmet from '../assets/img/categories/helmet.png';
+import battery from '../assets/img/categories/battery.png';
+import all from '../assets/img/categories/All.png';
 
-const icons = {
+export const icons = {
   road,
   mountain,
   helmet,
