@@ -8,6 +8,12 @@ export default function Footer() {
         <text>
             Footer
         </text>
+        <text>
+            Footer
+        </text>
+        <text>
+            Footer
+        </text>
     </View>
   );
 }
@@ -16,6 +22,7 @@ const styles = StyleSheet.create({
     footer: {
         backgroundColor: "#363E51",
         padding: 40,
+        flex: 1,
         }
     },
 );
