@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#363E51",
         padding: 40,
         flex: 1,
-        }
+        width: "100%",
+      }
     },
 );
