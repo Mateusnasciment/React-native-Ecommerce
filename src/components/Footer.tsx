@@ -4,17 +4,15 @@ import { View, StyleSheet } from 'react-native';
 
 export default function Footer() {
   return (
-    <View style={styles.footer}>
-        <text>
-            Footer
-        </text>
-        <text>
-            Footer
-        </text>
-        <text>
-            Footer
-        </text>
-    </View>
+      <View style={styles.footer}>
+          <text>
+              Footer
+          </text>
+              description
+      </View>
+      <View>
+          <text>
+      </View>    
   );
 }
 
